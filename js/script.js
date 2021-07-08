@@ -1,5 +1,5 @@
 import ScrollSuave from './modules/scroll-suave.js';
-import initAnimacaoScroll from './modules/scroll-animacao.js';
+import initAnimacaoScroll from './modules/scroll-animacao.js';  // vamos pular esse por enquanto 
 import initAccordion from './modules/accordion.js';
 import initTabNav from './modules/tabnav.js';
 import initModal from './modules/modal.js';
@@ -14,7 +14,7 @@ const scrollSuave = new ScrollSuave ('[data-menu="suave"] a[hre^="#"]');
 scrollSuave.init( );
 
 initScrollSuave();
-initAnimacaoScroll();
+initAnimacaoScroll(); // vamos pular esse por enquanto 
 initAccordion();
 initTabNav();
 initModal();
