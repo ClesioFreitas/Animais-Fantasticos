@@ -31,7 +31,3 @@ export default  class TabNav {
     }
 }
 
-  if  {
-    tabContent[0].classList.add(this.activeClass);
-  }
-
