@@ -23,8 +23,10 @@ tabNav.init ( );
 const modal = new Modal ( '[data-modal="abrir"]', '[data-modal="fechar"]', '[data-modal="container"]');
 Modal.init ( );
  
+const tooltip= new Tooltip ('[data-tooltip]');
+tooltip.init ( );
+
 initAnimacaoScroll(); // vamos pular esse por enquanto 
-initTooltip();
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
