@@ -31,7 +31,6 @@ initAnimacaoScroll(); // vamos pular esse por enquanto
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
-initFetchBitcoin();
 
 fetchAnimais ('../../animaisapi.json', '.numeors-grid');
 fetchBitcoin ('https://blockchain.info/ticker', '.btc-preco'); 
